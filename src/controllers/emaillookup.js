@@ -29,7 +29,7 @@ module.exports = ({inconfig}) => {
     api.get('/:userid', (req, res) => {
 
         if((req.params.userid != null) || (req.params.userid != 'undefined')){
-            console.log("Input User: " + req.params.userid);
+            //console.log("Input User: " + req.params.userid);
 
             var connection = new Connection(sqlconfig);
 
