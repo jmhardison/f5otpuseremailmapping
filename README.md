@@ -18,11 +18,15 @@ The following environment variables must exist in order for the API to work.
 * SQLDB - DB Name
 * SQLPROC - Stored Procedure name.
 
-## Testing
+## Consuming
 A status endpoint is available once launched:
 
 * `/v1/status` - Will return a status of running if successful.
   * `"status": "running"`
+
+* `/v1/user/:username` - Replacing :username with a real username will return that users email. (/v1/user/bob)
+  * `bob@home.com` - Simple string response, you can pull the body of the response in for use int he F5.
+
 
 ## Running Docker
 
