@@ -1,5 +1,5 @@
 # F5 OTP Useremail Mapping
-This web service is used in a F5 ILX wrokflow to return an email address for a given user id.
+This web service is used in a F5 ILX workflow to return an email address for a given user id.
 
 It leverages SQL for the backend, and relies on a stored procedure that accepts a string and returns the following fields:
 
