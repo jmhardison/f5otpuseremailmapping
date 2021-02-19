@@ -24,7 +24,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "request": "^2.81.0",
-    "tedious": "^6.1.1"
+    "tedious": "^11.0.4"
   },
   "devDependencies": {}
 }
